@@ -1,3 +1,4 @@
+
 function [val]=calTensorNorm2(A)
 [~,S,~]=tensorSvd(A);
 S_fft=fft(S,[],3);

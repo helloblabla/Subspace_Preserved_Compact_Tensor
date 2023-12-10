@@ -1,5 +1,6 @@
 
 function [value1]=calTensorFrobenius(X)
+
 [I1,I2,I3]=size(X);
 value1=0;
 for i=1:I1

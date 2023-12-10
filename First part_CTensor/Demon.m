@@ -32,6 +32,8 @@ for h=1:LArrLength
 end
 
 
+
+
 function [covError,proError,rateArr,max_shrinkVal,sumTube_shrinkVal,countShrink,proErrorUpBound]=steamTensorSketch(A,B,topK,shrinkLevel)
 [n,~,~]=size(A);
 [L,~,~]=size(B);
