@@ -1,3 +1,4 @@
+%Demo
 clear;
 path='..\Data\syntheticData_1.mat ';
 load(path);
